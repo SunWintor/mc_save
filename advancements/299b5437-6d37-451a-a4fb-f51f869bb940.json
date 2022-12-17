@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "candylands:entered_cream_fields": {
+    "criteria": {
+      "entered_cream_fields": "2022-12-17 19:00:44 +0800"
+    },
+    "done": true
+  },
   "tombstone:recipes/from_grave_dust": {
     "criteria": {
       "has_ingredient": "2022-12-15 17:40:59 +0800"
@@ -47,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2022-12-17 20:44:29 +0800"
+    },
+    "done": true
+  },
   "tombstone:adventure/christmas": {
     "criteria": {
       "coded_trigger": "2022-12-10 18:55:38 +0800"
@@ -56,6 +68,12 @@
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2022-12-10 19:15:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2022-12-17 17:54:41 +0800"
     },
     "done": true
   },
@@ -75,18 +93,23 @@
       "minecraft:frozen_river": "2022-12-15 23:54:23 +0800",
       "minecraft:sunflower_plains": "2022-12-10 18:56:20 +0800",
       "minecraft:birch_forest": "2022-12-15 22:17:51 +0800",
+      "minecraft:windswept_hills": "2022-12-17 17:43:01 +0800",
       "minecraft:beach": "2022-12-10 18:56:57 +0800",
       "minecraft:river": "2022-12-10 18:57:43 +0800",
       "minecraft:stony_shore": "2022-12-15 19:44:23 +0800",
       "minecraft:snowy_plains": "2022-12-15 23:23:32 +0800",
       "minecraft:dripstone_caves": "2022-12-12 22:47:33 +0800",
       "minecraft:snowy_taiga": "2022-12-16 00:04:12 +0800",
+      "minecraft:swamp": "2022-12-17 17:40:33 +0800",
       "minecraft:cold_ocean": "2022-12-15 22:47:26 +0800",
       "minecraft:forest": "2022-12-15 19:51:22 +0800",
+      "minecraft:lush_caves": "2022-12-17 16:25:29 +0800",
       "minecraft:deep_cold_ocean": "2022-12-15 22:55:43 +0800",
       "minecraft:frozen_ocean": "2022-12-15 22:56:41 +0800",
       "minecraft:deep_frozen_ocean": "2022-12-15 22:56:18 +0800",
       "minecraft:ocean": "2022-12-15 18:07:10 +0800",
+      "minecraft:old_growth_spruce_taiga": "2022-12-17 16:07:33 +0800",
+      "minecraft:snowy_beach": "2022-12-17 16:16:33 +0800",
       "minecraft:deep_lukewarm_ocean": "2022-12-15 18:43:01 +0800",
       "minecraft:flower_forest": "2022-12-10 18:57:53 +0800",
       "minecraft:meadow": "2022-12-15 22:23:43 +0800",
@@ -112,6 +135,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2022-12-17 21:37:39 +0800"
+    },
+    "done": true
+  },
   "tconstruct:tools/travelers_gear": {
     "criteria": {
       "crafted_helmet": "2022-12-16 00:11:23 +0800"
@@ -133,7 +162,9 @@
   "tconstruct:world/slime_collector": {
     "criteria": {
       "sky": "2022-12-15 20:12:57 +0800",
-      "earth": "2022-12-15 18:44:01 +0800"
+      "earth": "2022-12-15 18:44:01 +0800",
+      "ichor": "2022-12-17 20:57:10 +0800",
+      "blood": "2022-12-17 20:57:08 +0800"
     },
     "done": false
   },
@@ -219,9 +250,15 @@
     "criteria": {
       "minecraft:pillager": "2022-12-12 23:22:21 +0800",
       "minecraft:skeleton": "2022-12-15 17:40:59 +0800",
+      "minecraft:ravager": "2022-12-17 21:26:36 +0800",
+      "minecraft:hoglin": "2022-12-17 19:32:36 +0800",
+      "minecraft:vindicator": "2022-12-17 21:25:16 +0800",
+      "minecraft:magma_cube": "2022-12-17 20:34:56 +0800",
       "minecraft:spider": "2022-12-15 17:41:16 +0800",
       "minecraft:creeper": "2022-12-13 00:19:57 +0800",
+      "minecraft:witch": "2022-12-17 21:36:25 +0800",
       "minecraft:cave_spider": "2022-12-15 17:47:52 +0800",
+      "minecraft:enderman": "2022-12-17 20:28:29 +0800",
       "minecraft:zombie": "2022-12-13 00:16:01 +0800",
       "minecraft:drowned": "2022-12-15 19:25:18 +0800"
     },
@@ -239,6 +276,18 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2022-12-17 17:54:41 +0800"
+    },
+    "done": true
+  },
+  "tconstruct:world/blood_island": {
+    "criteria": {
+      "found_island": "2022-12-17 20:51:53 +0800"
+    },
+    "done": true
+  },
   "tombstone:adventure/find_grave_dust": {
     "criteria": {
       "from_undead": "2022-12-15 17:40:59 +0800"
@@ -248,7 +297,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "apple": "2022-12-10 19:05:33 +0800",
-      "bread": "2022-12-15 17:26:09 +0800"
+      "bread": "2022-12-15 17:26:09 +0800",
+      "melon_slice": "2022-12-17 20:13:29 +0800"
     },
     "done": false
   },
@@ -267,6 +317,12 @@
   "tconstruct:world/sky_island": {
     "criteria": {
       "found_island": "2022-12-15 20:12:52 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/teleport_to_grave": {
+    "criteria": {
+      "coded_trigger": "2022-12-17 18:03:57 +0800"
     },
     "done": true
   },
@@ -290,6 +346,22 @@
       "textures/entity/cat/all_black.png": "2022-12-16 00:14:50 +0800"
     },
     "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2022-12-17 17:54:41 +0800",
+      "minecraft:nether_wastes": "2022-12-17 18:51:32 +0800",
+      "minecraft:soul_sand_valley": "2022-12-17 18:59:37 +0800",
+      "minecraft:warped_forest": "2022-12-17 19:51:57 +0800",
+      "minecraft:basalt_deltas": "2022-12-17 20:31:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2022-12-17 21:23:36 +0800"
+    },
+    "done": true
   },
   "twilightforest:root": {
     "criteria": {
@@ -356,6 +428,12 @@
   "integratedcrafting:root": {
     "criteria": {
       "criteria_0": "2022-12-15 21:11:51 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2022-12-17 21:25:27 +0800"
     },
     "done": true
   },
