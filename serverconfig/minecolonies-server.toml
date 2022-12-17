@@ -1,0 +1,239 @@
+
+#所有的配置选项都与核心玩法有关
+[gameplay]
+	#初始公民的数量。 [默认：4，最小：1，最大：10]
+	#Range: 1 ~ 10
+	initialcitizenamount = 4
+	#是否允许在施工中的建筑物周围放置施工围栏？ [默认: true]
+	builderplaceconstructiontape = true
+	#玩家是否可以放置无限数量的补给船/营地？ [默认: false]
+	allowinfinitesupplychests = false
+	#是否允许玩家弃用他的殖民地并创造新的殖民地？注意：这可能会出现未知的问题！ [默认: false]
+	allowinfinitecolonies = false
+	#是否允许在其他维度创建殖民地？ [默认: true]
+	allowotherdimcolonies = true
+	#如果一个殖民地的人口数低于最初的公民数，则使用此项的重生成间隔。 [默认：60，最小：10，最大：600]
+	#Range: 10 ~ 600
+	citizenrespawninterval = 60
+	#单殖民地最大公民数量 [默认：250，最小：4，最大：500]
+	#Range: 4 ~ 500
+	maxcitizenpercolony = 250
+	#方块放置间隔 (值增大，延迟也增大) [默认：15，最小：1，最大：500]
+	#Range: 1 ~ 500
+	builderbuildblockdelay = 15
+	#挖掘方块间隔 (值减少，挖掘速度减慢) [默认：500，最小：1，最大：10000]
+	#Range: 1 ~ 10000
+	blockminingdelaymodifier = 500
+	#是否启用实验特性（可能存在BUG）？ [默认: false]
+	enableindevelopmentfeatures = false
+	#是否显示市民姓名标签？ [默认: true]
+	alwaysrendernametag = true
+	#工人是否在雨天工作？ [默认: false]
+	workersalwaysworkinrain = false
+	#玩家会在进入或离开殖民地时收到消息吗？ [默认: true]
+	sendenteringleavingmessages = true
+	#是否允许玩家更改公民名字？ -1 代表否，0 代表仅指定玩家，1 代表是。（要设置哪些玩家可以更改名称，请参阅下面的“特殊权限组”。） [默认：1，最小：-1，最大：1]
+	#Range: -1 ~ 1
+	allowglobalnamechanges = 1
+	#是否显示特殊节日内容？ [默认: true]
+	holidayfeatures = true
+	#AI 更新速率，增加该值可以提升性能，并降低公民AI的更新频率。 [默认：1，最小：1，最大：100]
+	#Range: 1 ~ 100
+	updaterate = 1
+	#每单位堆肥产生的泥土量 [默认：1，最小：0，最大：100]
+	#Range: 0 ~ 100
+	dirtfromcompost = 1
+	#挖掘原石或石头（默认设置，可以使用数据包扩展使用其他材料）时，矿工获得矿石的几率。该数值为百分比值。（要修改矿工能获取的矿石，参见“幸运矿物列表”。） [默认：1，最小：0，最大：100]
+	#Range: 0 ~ 100
+	luckyblockchance = 1
+	#市政厅至少需要多少级才可启用传送至盟友殖民地功能。 [默认：3，最小：0，最大：5]
+	#Range: 0 ~ 5
+	minthleveltoteleport = 3
+	#未使用建筑工具放置建筑时，提醒玩家使用建筑工具。 [默认: true]
+	suggestbuildtoolplacement = true
+	#食物消耗系数 [默认：1.000000，最小：0.100000，最大：100.000000
+	#Range: 0.1 ~ 100.0
+	foodmodifier = 1.0
+	#疾病发生频率。1 = 非常常见，100 = 非常罕见。 [默认：5，最小：1，最大：100]
+	#Range: 1 ~ 100
+	diseasemodifier = 5
+	#如果殖民地仅一部分区块被其 所有者/市长 加载，整个殖民地是否应当保持已加载状态。（在 “殖民地区块加载限制” 设置加载区块的数量） [默认: false]
+	forceloadcolony = false
+	#这项与“殖民地区块加载”选项一起控制多少个区块被加载，这个值越大，则越少的区块被加载。 (最中心的区块会被首先加载。) 1 = 加载所有认领的区块。 [默认：3，最小：1，最大：15]
+	#Range: 1 ~ 15
+	colonyloadstrictness = 3
+	#酒馆客人白嫖资源的几率，以百分比为单位。 [默认：2，最小：1，最大：100]
+	#Range: 1 ~ 100
+	badvisitorchance = 2
+	#林务员搜索一颗树的时候检查的最大原木数量。 [默认：400，最小：1，最大：1000]
+	#Range: 1 ~ 1000
+	maxtreesize = 400
+	#禁用补给营地放置限制，以支持空岛等类似模式 [默认: false]
+	nosupplyplacementrestrictions = false
+	#开启此项以允许入侵者在空中生成 [默认: false]
+	skyraiders = false
+
+#与研究系统有关的设置
+[research]
+	#在创造模式下自动并且（几乎）瞬间完成研究。如果设为false，创造模式玩家仍能开始研究，但研究速度和生存模式一样。 [默认: true]
+	researchcreativecompletion = true
+	#显著提高在世界加载时与研究数据包有关的日志的量 [默认: false]
+	researchdebuglog = false
+	#消耗列表中的物品来撤销一项已完成的研究 
+	researchresetcost = ["minecolonies:ancienttome:1"]
+
+#所有与模拟殖民地命令有关的配置
+[commands]
+	#是否允许玩家使用 /mc rtp 命令？ [默认: false]
+	canplayerusertpcommand = false
+	#是否允许玩家使用 /mc colony teleport 命令？ [默认: false]
+	canplayerusecolonytpcommand = false
+	#玩家是否可传送至盟友的殖民地？ [默认: true]
+	canplayeruseallytownhallteleport = true
+	#是否允许玩家使用 /mc home 命令？注意：只有殖民地的所有者才能使用此命令。 [默认: false]
+	canplayerusehometpcommand = false
+	#是否允许玩家使用 /mc colony info 命令？ [默认: true]
+	canplayeruseshowcolonyinfocommand = true
+	#是否允许玩家使用 /mc citizens kill 命令？ [默认: false]
+	canplayerusekillcitizenscommand = false
+	#是否允许玩家使用 /mc colony addOfficer 命令？ [默认: true]
+	canplayeruseaddofficercommand = true
+	#是否允许玩家使用 /mc colony delete 命令？ [默认: true]
+	canplayerusedeletecolonycommand = true
+	#尝试寻找安全的随机传送点的次数（影响 /mc rtp 命令）。 [默认：4，最小：1，最大：10]
+	#Range: 1 ~ 10
+	numberofattemptsforsafetp = 4
+
+#与殖民地领地有关的设置
+[claims]
+	#殖民地的最大领地范围。半径，以区块为单位。 [默认：20，最小：1，最大：50]
+	#Range: 1 ~ 50
+	maxColonySize = 20
+	#殖民地之间的最小间距 (以区块为单位)。 [默认：8，最小：1，最大：200]
+	#Range: 1 ~ 200
+	minColonyDistance = 8
+	#殖民地的初始领地范围。半径，以区块为单位。 [默认：4，最小：1，最大：15]
+	#Range: 1 ~ 15
+	initialColonySize = 4
+	#是否限制殖民地放置的位置必须在世界出生点的一定范围内？ [默认: false]
+	restrictcolonyplacement = false
+	#殖民地距离世界出生点的最大距离 (单位：方块) [默认：8000，最小：1000，最大：100000]
+	#Range: 1000 ~ 100000
+	maxdistancefromworldspawn = 8000
+	#殖民地距离世界出生点的最小距离 (单位：方块) [默认：512，最小：1，最大：1000]
+	#Range: 1 ~ 1000
+	mindistancefromworldspawn = 512
+	#官员是否能接通过自己管理的殖民地获得进度？ [默认: true]
+	officersreceiveadvancements = true
+
+#所有的配置选项均与模拟殖民地的战斗元素有关
+[combat]
+	#是否生成入侵者 [默认: true]
+	dobarbariansspawn = true
+	#入侵者难度设置 [默认：5，最小：0，最大：10]
+	#Range: 0 ~ 10
+	barbarianhordedifficulty = 5
+	#入侵者数量的最大值 [默认：80，最小：6，最大：400]
+	#Range: 6 ~ 400
+	maxBarbarianSize = 80
+	#入侵者是否可以破坏、攀爬、越过障碍。 [默认: true]
+	dobarbariansbreakthroughwalls = true
+	#两次袭击间隔的平均天数 [默认：14，最小：1，最大：50]
+	#Range: 1 ~ 50
+	averagenumberofnightsbetweenraids = 14
+	#袭击最短间隔的天数 [默认：10，最小：1，最大：30]
+	#Range: 1 ~ 30
+	minimumnumberofnightsbetweenraids = 10
+	#怪物是否攻击公民？ [默认: true]
+	mobattackcitizens = true
+	#决定入侵者是否能够破坏关闭的门。 [默认: true]
+	shouldraiderbreakdoors = true
+	#当公民被攻击时是否会向卫兵寻求帮助？ [默认: true]
+	citizencallforhelp = true
+	#弓箭手的攻击伤害加成。 [默认：1.000000，最小：0.100000，最大：5.000000
+	#Range: 0.1 ~ 5.0
+	rangerdamagemult = 1.0
+	#骑士的攻击伤害加成。 [默认：1.000000，最小：0.100000，最大：5.000000
+	#Range: 0.1 ~ 5.0
+	knightdamagemult = 1.0
+	#所有卫兵的生命值加成。 [默认：1.000000，最小：0.100000，最大：5.000000
+	#Range: 0.1 ~ 5.0
+	guardhealthmult = 1.0
+	#开启PVP模式 (在特定情况下，殖民地可以被摧毁、损坏)。 [默认: false]
+	pvp_mode = false
+	#海盗船存在的天数。 [默认：3，最小：1，最大：10]
+	#Range: 1 ~ 10
+	daysuntilpirateshipsdespawn = 3
+	#入侵者生成的最大高度 (即 y轴 数值)。 [默认：200，最小：1，最大：500]
+	#Range: 1 ~ 500
+	maxyforbarbarians = 200
+
+#所有权限配置选项
+[permissions]
+	#是否启用殖民地保护？ [默认: true]
+	enablecolonyprotection = true
+	#设置最多保留多少份备份 [默认：50，最小：3，最大：5000]
+	#Range: 3 ~ 5000
+	maxkeptbackups = 50
+	#与殖民地保护选项无关，是否禁用殖民地内的爆炸？DAMAGE_NOTHING 完全禁止爆炸。DAMAGE_PLAYERS 允许爆炸伤害玩家，但不影响方块，中立或友善的实体。DAMAGE_ENTITIES 允许伤害所有实体。DAMAGE_EVERYTHING 允许伤害所有实体和方块。 
+	#Allowed Values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING
+	turnoffexplosionsincolonies = "DAMAGE_ENTITIES"
+	#拥有特殊权限的玩家，特别是可更改公民姓名的权限(见“姓名更改”选项)。 
+	specialpermgroup = ["_Raycoms_"]
+	#可供玩家在任意殖民地进行交互的方块（例如：自动贩卖机） 
+	freetointeractblocks = ["dirt", "0 0 0"]
+	#每个权限消息之间的秒数间隔（以避免刷屏）。 [默认：30，最小：1，最大：1000]
+	#Range: 1 ~ 1000
+	secondsBetweenPermissionMessages = 30
+
+#所有的配置选项均与模组兼容性有关
+[compatibility]
+	#市民在图书馆中所消耗的物品。 
+	configliststudyitems = ["minecraft:paper;400;100", "minecraft:book;600;10"]
+	#酒馆客人需求的物品 
+	configlistrecruitmentitems = ["minecraft:hay_block;3", "minecraft:book;2", "minecraft:enchanted_book;9", "minecraft:diamond;9", "minecraft:emerald;8", "minecraft:baked_potato;1", "minecraft:gold_ingot;2", "minecraft:redstone;2", "minecraft:lapis_lazuli;2", "minecraft:cake;11", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;3"]
+	#低权重矿物列表，矿工更少地获得列表内的矿物 (参考 ”矿物权重“选项) 格式: 方块! 权重 
+	luckyores = ["minecraft:coal_ore!64", "minecraft:copper_ore!48", "minecraft:iron_ore!32", "minecraft:gold_ore!16", "minecraft:redstone_ore!8", "minecraft:lapis_ore!4", "minecraft:diamond_ore!2", "minecraft:emerald_ore!1"]
+	#林务员种植、采伐动态的树（Dynamic Tree mod）的树木的区块大小：1~8。 [默认：5，最小：1，最大：8]
+	#Range: 1 ~ 8
+	dynamictreeharvestsize = 5
+	#T2 级别的渔夫小屋可使用的未附魔鱼竿最大耐久偏移量，偏移量基于铁质工具的耐久(250)。如果使用了热力基本 (Thermal Foundation) Mod，则比较值需要额外 +6。T3 级别的小屋可以使用任意耐久的未附魔鱼竿，只要渔夫不会因此受到伤害。这个值一旦低于 -250，则只允许使用我的世界的原版鱼竿，除非 T1 设置了允许。 [默认：6，最小：-249，最大：250000]
+	#Range: -249 ~ 250000
+	fishingroddurabilityadjustt2 = 6
+	#T1 级别的渔夫小屋可使用的未附魔鱼竿最大耐久偏移量，偏移量基于其他木质工具的耐久(59)。我的世界的原版鱼竿将始终可用，但是其他鱼竿替代品需要 +6 的偏移量。默认值最大允许到热力基本 (Thermal Foundation) Mod 的银质工具耐久 (80)。这个值一旦低于 -59，则只允许使用原版鱼竿。 [默认：22，最小：-58，最大：250000]
+	#Range: -58 ~ 250000
+	fishingroddurabilityadjustt1 = 22
+	#所有公民可能患上的疾病、名称、频率以及相应的治疗药物。 
+	diseases = ["Influenza,100,minecraft:carrot,minecraft:potato", "Measles,10,minecraft:dandelion,minecraft:kelp,minecraft:poppy", "Smallpox,1,minecraft:honey_bottle,minecraft:golden_apple"]
+	#加载配方时，生成CSV文件以帮助调试数据包或其他模组。 [默认: false]
+	auditcraftingtags = false
+	#开启建筑物库存的调试。 [默认: false]
+	debuginventories = false
+
+#所有与寻路有关的配置
+[pathfinding]
+	#更详细的寻路调试信息 [默认：0，最小：0，最大：10]
+	#Range: 0 ~ 10
+	pathfindingdebugverbosity = 0
+	#市民会去使用最短多少格连续的铁轨。 [默认：8，最小：5，最大：100]
+	#Range: 5 ~ 100
+	minimumrailstopath = 8
+	#用于寻路的线程数量。 [默认：2，最小：1，最大：10]
+	#Range: 1 ~ 10
+	pathfindingmaxthreadcount = 2
+
+#所有与请求系统有关的配置
+[requestSystem]
+	#是否在debug.log中显示请求系统的调试信息？出现问题时建议开启。 [默认: false]
+	enabledebuglogging = false
+	#请求系统对可重试的请求执行多少次请求。值越大，服务器负载越高。 [默认：3，最小：1，最大：10]
+	#Range: 1 ~ 10
+	maximalretries = 3
+	#请求系统对可重试请求的请求的间隔(单位为 Tick)，降低会增加服务器负载。 [默认：1200，最小：30，最大：10000]
+	#Range: 30 ~ 10000
+	delaybetweenretries = 1200
+	#当要求玩家解决请求时，是否请求系统应该创造性地解决请求（如果可能的话）？ 这是一个调试工具，可能需要很长时间才能解决请求。 [默认: false]
+	creativeresolve = false
+	#是否允许玩家使用 /mc colony requestsystem-reset 命令？ [默认: false]
+	canplayeruseresetcommand = false
+
