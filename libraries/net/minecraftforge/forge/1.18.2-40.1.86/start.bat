@@ -1,0 +1,1 @@
+java -Xms8G -Xmx32G -jar forge-1.18.2-40.1.86-server.jar
