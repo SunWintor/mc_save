@@ -5,6 +5,275 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2022-12-16 01:37:00 +0800"
+    },
+    "done": true
+  },
+  "tconstruct:tools/materials_and_you": {
+    "criteria": {
+      "crafted_book": "2022-12-10 19:02:20 +0800"
+    },
+    "done": true
+  },
+  "tconstruct:internal/starting_book": {
+    "criteria": {
+      "tick": "2022-12-10 19:02:20 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2022-12-15 00:37:17 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/christmas": {
+    "criteria": {
+      "coded_trigger": "2022-12-10 19:02:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2022-12-15 00:18:48 +0800"
+    },
+    "done": true
+  },
+  "tconstruct:tools/tinker_station": {
+    "criteria": {
+      "crafted_block": "2022-12-10 19:52:23 +0800"
+    },
+    "done": true
+  },
+  "botania:main/dirt_rod_craft": {
+    "criteria": {
+      "dirtrod": "2022-12-15 21:13:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2022-12-17 21:37:39 +0800"
+    },
+    "done": true
+  },
+  "botania:main/generating_flower": {
+    "criteria": {
+      "flower": "2022-12-15 20:04:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2022-12-20 22:15:06 +0800"
+    },
+    "done": true
+  },
+  "botania:main/rune_pickup": {
+    "criteria": {
+      "rune": "2022-12-15 21:10:14 +0800"
+    },
+    "done": true
+  },
+  "botania:main/flower_pickup": {
+    "criteria": {
+      "flower": "2022-12-10 21:17:01 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2022-12-11 15:58:38 +0800"
+    },
+    "done": true
+  },
+  "botania:main/mana_pool_pickup": {
+    "criteria": {
+      "pickup": "2022-12-15 02:29:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2022-12-12 23:19:58 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2022-12-10 19:02:20 +0800"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2022-12-10 19:02:20 +0800"
+    },
+    "done": true
+  },
+  "botania:main/root": {
+    "criteria": {
+      "flower": "2022-12-10 21:17:01 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2022-12-13 00:53:15 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/large_hollow_hill": {
+    "criteria": {
+      "found_structure": "2022-12-20 23:31:51 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2022-12-15 00:58:30 +0800"
+    },
+    "done": true
+  },
+  "botania:main/mana_pool_pickup_lexicon": {
+    "criteria": {
+      "pickup": "2022-12-15 02:29:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2022-12-12 23:10:20 +0800",
+      "porkchop": "2022-12-15 01:34:57 +0800",
+      "apple": "2022-12-10 19:20:00 +0800",
+      "pumpkin_pie": "2022-12-20 23:58:34 +0800",
+      "mutton": "2022-12-12 22:50:41 +0800",
+      "bread": "2022-12-15 00:45:36 +0800",
+      "rotten_flesh": "2022-12-10 21:15:52 +0800",
+      "salmon": "2022-12-20 21:17:21 +0800",
+      "mushroom_stew": "2022-12-17 16:26:08 +0800",
+      "carrot": "2022-12-13 20:10:26 +0800"
+    },
+    "done": false
+  },
+  "twilightforest:alt/biomes/general_biomes": {
+    "criteria": {
+      "has_dense": "2022-12-10 21:41:02 +0800"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2022-12-10 19:28:44 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/teleport_to_grave": {
+    "criteria": {
+      "coded_trigger": "2022-12-17 16:58:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/firefly_forest": {
+    "criteria": {
+      "in_biome": "2022-12-20 23:15:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2022-12-12 23:47:52 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/hedge_maze": {
+    "criteria": {
+      "found_structure": "2022-12-20 22:55:57 +0800"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/citizen_eat_food_rotten_flesh": {
+    "criteria": {
+      "citizen_eat_rotten_flesh": "2022-12-17 22:36:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:arborist": {
+    "criteria": {
+      "canopy_planks": "2022-12-20 23:00:02 +0800",
+      "canopy_log": "2022-12-20 22:59:59 +0800",
+      "canopy_sapling": "2022-12-20 22:49:48 +0800"
+    },
+    "done": false
+  },
+  "integrateddynamics:root": {
+    "criteria": {
+      "criteria_0": "2022-12-10 19:02:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-12-10 19:09:01 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2022-12-10 19:28:42 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/mushroom_forest": {
+    "criteria": {
+      "in_biome": "2022-12-20 22:49:24 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2022-12-17 21:37:10 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/dense_twilight_forest": {
+    "criteria": {
+      "in_biome": "2022-12-10 21:41:02 +0800"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/puny_smelting": {
+    "criteria": {
+      "crafted_book": "2022-12-15 01:44:15 +0800"
+    },
+    "done": true
+  },
+  "botania:main/runic_altar_pickup": {
+    "criteria": {
+      "altar": "2022-12-15 20:59:50 +0800"
+    },
+    "done": true
+  },
+  "integrateddynamics:logic_operations/logic_programming": {
+    "criteria": {
+      "criteria_0": "2022-12-15 23:46:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2022-12-16 01:34:41 +0800"
+    },
+    "done": true
+  },
+  "tconstruct:tools/part_builder": {
+    "criteria": {
+      "crafted_block": "2022-12-10 19:40:07 +0800"
+    },
+    "done": true
+  },
   "minecolonies:minecraft/craft_supply": {
     "criteria": {
       "supply_ship": "2022-12-13 20:09:58 +0800"
@@ -29,21 +298,39 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2022-12-16 01:37:00 +0800"
-    },
-    "done": true
-  },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:sheep": "2022-12-17 21:00:38 +0800"
     },
     "done": false
   },
-  "tconstruct:tools/materials_and_you": {
+  "twilightforest:alt/major_landmarks/medium_hollow_hill": {
     "criteria": {
-      "crafted_book": "2022-12-10 19:02:20 +0800"
+      "found_structure": "2022-12-20 22:48:18 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/twilight_forest": {
+    "criteria": {
+      "in_biome": "2022-12-20 22:46:57 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/arthopods": {
+    "criteria": {
+      "has_hedge": "2022-12-20 22:56:18 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/steeleaf_armor_set": {
+    "criteria": {
+      "has_ingot": "2022-12-20 23:36:29 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/pinch_beetle": {
+    "criteria": {
+      "hurt": "2022-12-20 23:32:16 +0800"
     },
     "done": true
   },
@@ -53,21 +340,15 @@
     },
     "done": true
   },
-  "tconstruct:internal/starting_book": {
-    "criteria": {
-      "tick": "2022-12-10 19:02:20 +0800"
-    },
-    "done": true
-  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_leggings": "2022-12-15 00:28:40 +0800"
     },
     "done": true
   },
-  "tombstone:adventure/ashes_and_bones": {
+  "twilightforest:alt/biomes/oak_savannah": {
     "criteria": {
-      "coded_trigger": "2022-12-15 00:37:17 +0800"
+      "in_biome": "2022-12-20 23:04:03 +0800"
     },
     "done": true
   },
@@ -83,9 +364,9 @@
     },
     "done": true
   },
-  "tombstone:adventure/christmas": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "coded_trigger": "2022-12-10 19:02:20 +0800"
+      "blaze_rod": "2022-12-20 21:43:14 +0800"
     },
     "done": true
   },
@@ -95,21 +376,21 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/animals": {
+    "criteria": {
+      "has_raven": "2022-12-20 23:08:46 +0800"
+    },
+    "done": true
+  },
   "botania:main/flower_pickup_lexicon": {
     "criteria": {
       "flower": "2022-12-10 21:17:01 +0800"
     },
     "done": true
   },
-  "minecraft:nether/root": {
+  "twilightforest:alt/treasures/armors": {
     "criteria": {
-      "entered_nether": "2022-12-15 00:18:48 +0800"
-    },
-    "done": true
-  },
-  "tconstruct:tools/tinker_station": {
-    "criteria": {
-      "crafted_block": "2022-12-10 19:52:23 +0800"
+      "has_steeleaf": "2022-12-20 23:36:29 +0800"
     },
     "done": true
   },
@@ -146,21 +427,9 @@
     },
     "done": true
   },
-  "botania:main/dirt_rod_craft": {
-    "criteria": {
-      "dirtrod": "2022-12-15 21:13:20 +0800"
-    },
-    "done": true
-  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2022-12-10 19:05:53 +0800"
-    },
-    "done": true
-  },
-  "minecraft:adventure/hero_of_the_village": {
-    "criteria": {
-      "hero_of_the_village": "2022-12-17 21:37:39 +0800"
     },
     "done": true
   },
@@ -176,12 +445,6 @@
     },
     "done": true
   },
-  "botania:main/generating_flower": {
-    "criteria": {
-      "flower": "2022-12-15 20:04:48 +0800"
-    },
-    "done": true
-  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2022-12-10 19:20:00 +0800"
@@ -194,17 +457,17 @@
     },
     "done": true
   },
-  "botania:main/rune_pickup": {
+  "twilightforest:alt/entities/hedge_spider": {
     "criteria": {
-      "rune": "2022-12-15 21:10:14 +0800"
+      "hurt": "2022-12-20 22:56:18 +0800"
     },
     "done": true
   },
-  "botania:main/flower_pickup": {
+  "tconstruct:world/slime_collector": {
     "criteria": {
-      "flower": "2022-12-10 21:17:01 +0800"
+      "earth": "2022-12-20 23:38:04 +0800"
     },
-    "done": true
+    "done": false
   },
   "tconstruct:tools/make_part": {
     "criteria": {
@@ -224,27 +487,21 @@
     },
     "done": true
   },
-  "tombstone:adventure/cancel_ghostly_shape": {
-    "criteria": {
-      "coded_trigger": "2022-12-11 15:58:38 +0800"
-    },
-    "done": true
-  },
-  "botania:main/mana_pool_pickup": {
-    "criteria": {
-      "pickup": "2022-12-15 02:29:47 +0800"
-    },
-    "done": true
-  },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2022-12-11 15:04:35 +0800"
     },
     "done": true
   },
-  "minecraft:story/deflect_arrow": {
+  "twilightforest:alt/treasures/steeleaf_tool_set": {
     "criteria": {
-      "deflected_projectile": "2022-12-12 23:19:58 +0800"
+      "has_ingot": "2022-12-20 23:36:29 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/ironwood_tool_set": {
+    "criteria": {
+      "has_pick": "2022-12-20 23:33:53 +0800"
     },
     "done": true
   },
@@ -266,15 +523,9 @@
     },
     "done": true
   },
-  "tombstone:adventure/root": {
+  "tombstone:adventure/create_strange_tablet": {
     "criteria": {
-      "auto": "2022-12-10 19:02:20 +0800"
-    },
-    "done": true
-  },
-  "cataclysm:root": {
-    "criteria": {
-      "custom_test_name": "2022-12-10 19:02:20 +0800"
+      "has_strange_tablet": "2022-12-20 23:45:54 +0800"
     },
     "done": true
   },
@@ -293,6 +544,7 @@
       "minecraft:hoglin": "2022-12-15 02:07:36 +0800",
       "minecraft:vindicator": "2022-12-17 21:37:07 +0800",
       "minecraft:spider": "2022-12-12 22:57:57 +0800",
+      "minecraft:creeper": "2022-12-20 21:39:14 +0800",
       "minecraft:evoker": "2022-12-17 21:37:37 +0800",
       "minecraft:witch": "2022-12-17 21:35:19 +0800",
       "minecraft:cave_spider": "2022-12-12 23:43:53 +0800",
@@ -302,21 +554,9 @@
     },
     "done": false
   },
-  "botania:main/root": {
-    "criteria": {
-      "flower": "2022-12-10 21:17:01 +0800"
-    },
-    "done": true
-  },
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "cod": "2022-12-11 15:41:29 +0800"
-    },
-    "done": true
-  },
-  "tombstone:adventure/chain_death": {
-    "criteria": {
-      "coded_trigger": "2022-12-13 00:53:15 +0800"
     },
     "done": true
   },
@@ -326,40 +566,9 @@
     },
     "done": true
   },
-  "tombstone:adventure/find_grave_dust": {
-    "criteria": {
-      "from_undead": "2022-12-15 00:58:30 +0800"
-    },
-    "done": true
-  },
-  "botania:main/mana_pool_pickup_lexicon": {
-    "criteria": {
-      "pickup": "2022-12-15 02:29:47 +0800"
-    },
-    "done": true
-  },
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2022-12-17 21:00:38 +0800"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "cooked_beef": "2022-12-12 23:10:20 +0800",
-      "porkchop": "2022-12-15 01:34:57 +0800",
-      "apple": "2022-12-10 19:20:00 +0800",
-      "mutton": "2022-12-12 22:50:41 +0800",
-      "bread": "2022-12-15 00:45:36 +0800",
-      "rotten_flesh": "2022-12-10 21:15:52 +0800",
-      "mushroom_stew": "2022-12-17 16:26:08 +0800",
-      "carrot": "2022-12-13 20:10:26 +0800"
-    },
-    "done": false
-  },
-  "twilightforest:alt/biomes/general_biomes": {
-    "criteria": {
-      "has_dense": "2022-12-10 21:41:02 +0800"
     },
     "done": true
   },
@@ -372,18 +581,6 @@
   "tombstone:adventure/choose_knowledge": {
     "criteria": {
       "coded_trigger": "2022-12-10 21:28:20 +0800"
-    },
-    "done": true
-  },
-  "tombstone:recipes/from_grave_key": {
-    "criteria": {
-      "has_ingredient": "2022-12-10 19:28:44 +0800"
-    },
-    "done": true
-  },
-  "tombstone:adventure/teleport_to_grave": {
-    "criteria": {
-      "coded_trigger": "2022-12-17 16:58:34 +0800"
     },
     "done": true
   },
@@ -419,11 +616,23 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/slime_beetle": {
+    "criteria": {
+      "hurt": "2022-12-20 23:36:05 +0800"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2022-12-15 00:18:48 +0800"
     },
     "done": false
+  },
+  "twilightforest:alt/entities/boar": {
+    "criteria": {
+      "hurt": "2022-12-20 23:14:03 +0800"
+    },
+    "done": true
   },
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
@@ -437,15 +646,9 @@
     },
     "done": true
   },
-  "minecraft:story/iron_tools": {
+  "twilightforest:alt/treasures/tools": {
     "criteria": {
-      "iron_pickaxe": "2022-12-12 23:47:52 +0800"
-    },
-    "done": true
-  },
-  "minecolonies:minecolonies/citizen_eat_food_rotten_flesh": {
-    "criteria": {
-      "citizen_eat_rotten_flesh": "2022-12-17 22:36:30 +0800"
+      "has_ironwood": "2022-12-20 23:33:53 +0800"
     },
     "done": true
   },
@@ -467,21 +670,9 @@
     },
     "done": true
   },
-  "integrateddynamics:root": {
+  "twilightforest:twilight_hunter": {
     "criteria": {
-      "criteria_0": "2022-12-10 19:02:39 +0800"
-    },
-    "done": true
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2022-12-10 19:09:01 +0800"
-    },
-    "done": true
-  },
-  "tombstone:adventure/first_grave": {
-    "criteria": {
-      "coded_trigger": "2022-12-10 19:28:42 +0800"
+      "hedge_spider": "2022-12-20 22:56:19 +0800"
     },
     "done": true
   },
@@ -493,21 +684,9 @@
     },
     "done": false
   },
-  "tombstone:adventure/fortuitous_militia": {
+  "twilightforest:hedge": {
     "criteria": {
-      "coded_trigger": "2022-12-17 21:37:10 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:alt/biomes/dense_twilight_forest": {
-    "criteria": {
-      "in_biome": "2022-12-10 21:41:02 +0800"
-    },
-    "done": true
-  },
-  "tconstruct:smeltery/puny_smelting": {
-    "criteria": {
-      "crafted_book": "2022-12-15 01:44:15 +0800"
+      "hedge_spider": "2022-12-20 22:56:19 +0800"
     },
     "done": true
   },
@@ -517,33 +696,15 @@
     },
     "done": true
   },
-  "botania:main/runic_altar_pickup": {
+  "twilightforest:alt/entities/raven": {
     "criteria": {
-      "altar": "2022-12-15 20:59:50 +0800"
-    },
-    "done": true
-  },
-  "integrateddynamics:logic_operations/logic_programming": {
-    "criteria": {
-      "criteria_0": "2022-12-15 23:46:31 +0800"
+      "slay": "2022-12-20 23:08:46 +0800"
     },
     "done": true
   },
   "tconstruct:tools/modified": {
     "criteria": {
       "crafted_tool": "2022-12-10 21:37:22 +0800"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2022-12-16 01:34:41 +0800"
-    },
-    "done": true
-  },
-  "tconstruct:tools/part_builder": {
-    "criteria": {
-      "crafted_block": "2022-12-10 19:40:07 +0800"
     },
     "done": true
   },
